@@ -23,7 +23,7 @@ https://www.gearbest.com/blog/how-to/how-to-automatically-turn-on-the-computer-o
 
 ## Enter Key Script
 
-- Copy this powershell script into the auto start folder next to lost ark
+- Download this [powershell-script](sendenter.ps1) and copy it into the auto start folder next to your lost ark short cut (See previous step)
 - It will briefly wait 10 minutes so that your old hardware has time to startup the game
 - It sends a Enter-Key stroke to the lost ark window. This will login you to the last server you have been connected to
 - Make sure you are in front of you PC when queue is done to prevent automatic logout
