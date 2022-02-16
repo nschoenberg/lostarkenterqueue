@@ -1,4 +1,4 @@
-# Auto Start Lost Ark Queue
+# Autostart Lost Ark Queue
 
 This manual is intended for people that do not have plenty of time waiting in Lost Ark queue before able to play. Don't get me wrong - this won't skip the queue but automate 
 the process for your convenience. By following the instructions you will
