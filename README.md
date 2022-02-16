@@ -17,7 +17,7 @@ https://www.gearbest.com/blog/how-to/how-to-automatically-turn-on-the-computer-o
 
 - In your steam library, right click on Lost Ark to open the context menu
 - Navigate to 'Manage' and select 'Add Desktop Shortcut'
-- Press Windows-Key + R on your keyboard to open the startup dialog
+- Press Windows-Key + R on your keyboard to open the run dialog
 - Enter 'shell:startup' and confirm with OK to open up the auto start folder of windows
 - Move the Lost Ark shortcut icon from your desktop into this folder
 
