@@ -34,4 +34,4 @@ https://www.gearbest.com/blog/how-to/how-to-automatically-turn-on-the-computer-o
 - Add the powershell as shown [here](add-ps-script.png), make sure tab PowerShell-Scripts is selected
 - Accept the changes and close the group policy editor
 
-Everytime you log in into your windows account this will run the script automatically. It sends a Enter-Key stroke to the lost ark window. This will login you to the last server you have been connected to. Make sure you are in front of you PC when queue is done to prevent automatic logout.
+Every time you log in into your windows account this will run the script automatically. It sends a Enter-Key stroke to the lost ark window. This will login you to the last server you have been connected to. Make sure you are in front of you PC when queue is done to prevent automatic logout.
