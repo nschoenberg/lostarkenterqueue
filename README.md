@@ -29,9 +29,9 @@ https://www.gearbest.com/blog/how-to/how-to-automatically-turn-on-the-computer-o
 - Download this [powershell-script](sendenter.ps1) and 
 - save it somewhere on your disk
 - Press Windows-Key + R to open the run dialog
-- Enter 'gpedit.msc' to open up the group policy editor
-- Navigate to user settings > windows settings > Scripts > Logon
-- Add the powershell as shown here, make sure tab PowerShell-Scripts is selected
+- Enter 'gpedit.msc' to open up the [group policy editor](policy_editor.png)
+- Navigate to user settings > [windows settings](windows_settings.png) > [Scripts](scripts.png) > [Logon](logon.png)
+- Add the powershell as shown [here](add-ps-script.png), make sure tab PowerShell-Scripts is selected
 - Accept the changes and close the group policy editor
 
 Everytime you log in into your windows account this will run the script automatically. It sends a Enter-Key stroke to the lost ark window. This will login you to the last server you have been connected to. Make sure you are in front of you PC when queue is done to prevent automatic logout.
