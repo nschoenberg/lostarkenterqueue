@@ -7,6 +7,9 @@ the process for your convenience. By following the instructions you will
 - Autostart Lost Ark
 - Send Enter-Key stroke to Lost Ark Window to enter the queue
 
+## Requirements
+
+In order to make this work it is expected that you don't have to enter any passwords during boot sequence like BIOS password or windows login password. It is also expected that your steam account logs in automatically as soon as steam starts.
 
 ## Setup BIOS
 
@@ -23,7 +26,12 @@ https://www.gearbest.com/blog/how-to/how-to-automatically-turn-on-the-computer-o
 
 ## Enter Key Script
 
-- Download this [powershell-script](sendenter.ps1) and copy it into the auto start folder next to your lost ark short cut (See previous step)
-- It will briefly wait 10 minutes so that your old hardware has time to startup the game
-- It sends a Enter-Key stroke to the lost ark window. This will login you to the last server you have been connected to
-- Make sure you are in front of you PC when queue is done to prevent automatic logout
+- Download this [powershell-script](sendenter.ps1) and 
+- save it somewhere on your disk
+- Press Windows-Key + R to open the run dialog
+- Enter 'gpedit.msc' to open up the group policy editor
+- Navigate to user settings > windows settings > Scripts > Logon
+- Add the powershell as shown here, make sure tab PowerShell-Scripts is selected
+- Accept the changes and close the group policy editor
+
+Everytime you log in into your windows account this will run the script automatically. It sends a Enter-Key stroke to the lost ark window. This will login you to the last server you have been connected to. Make sure you are in front of you PC when queue is done to prevent automatic logout.
