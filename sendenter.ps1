@@ -1,7 +1,9 @@
 Start-Sleep -s 600
 
+$procid = Get-Process "LOSTARK" | select -expand id
+
 [void] [System.Reflection.Assembly]::LoadWithPartialName("'Microsoft.VisualBasic")
-[Microsoft.VisualBasic.Interaction]::AppActivate("LOST ARK (64-bit, DX11) v.2.0.1.1")
+[Microsoft.VisualBasic.Interaction]::AppActivate($procid)
 
 Start-Sleep -s 2
 
