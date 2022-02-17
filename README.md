@@ -26,8 +26,7 @@ https://www.gearbest.com/blog/how-to/how-to-automatically-turn-on-the-computer-o
 
 ## Enter Key Script
 
-- Download this [powershell-script](sendenter.ps1) and 
-- save it somewhere on your disk
+- Download this [powershell-script](sendenter.ps1) and save it somewhere on your disk
 - Press Windows-Key + R to open the run dialog
 - Enter 'gpedit.msc' to open up the [group policy editor](policy_editor.png)
 - Navigate to user settings > [windows settings](windows_settings.png) > [Scripts](scripts.png) > [Logon](logon.png)
